@@ -47,3 +47,5 @@ cbind.data.frame(Mean = apply(res$cor_store, 1, mean),
                  UL = apply(res$cor_store, 1, function(i) quantile(i, c(0.975))))
 ```
 
+## Data
+The taxonomic (counts) and estrogen (target) data analyzed for correlation in the paper "Recurrent urinary tract infection and estrogen shape the taxonomic ecology and functional potential of the postmenopausal urobiome" by Michael L. Neugent, et. al. is contained in the data folder.
