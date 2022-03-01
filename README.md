@@ -8,6 +8,9 @@ library(RcppDist)
 ```
 
 ## Load the cpp function BayesDMC
+
+The function is located in the code folder in this repository.
+
 ```
 sourceCpp("BayesDMC.cpp")
 ```
