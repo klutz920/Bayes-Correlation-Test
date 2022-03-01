@@ -7,7 +7,7 @@ library(Rcpp)
 library(RcppDist)
 ```
 
-## Load the cpp function BayesDMC
+## Load the Rcpp function BayesDMC
 
 The function is located in the code folder in this repository.
 
