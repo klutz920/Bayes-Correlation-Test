@@ -39,7 +39,7 @@ dim(res$cor_store)
 ```
 
 # Summary of the Correlations
-The posterior mean and 95% credible interval (lower bound = LL, upper bound = UL) between target and taxa are displayed by running the command below.  Each row is a taxon or feature.   The columns are the posterior mean, LL, and UL for the correlation between the taxaon and the target.
+The posterior mean and 95% credible interval (lower bound = LL, upper bound = UL) between target and taxa are displayed by running the command below.  Each row is a taxon or feature.   The columns are the posterior mean, 95% credible interval lower limit (LL), and 95% credible interval upper limit (UL) for the correlation between each taxon and the target.
 
 ```
 cbind.data.frame(Mean = apply(res$cor_store, 1, mean),
