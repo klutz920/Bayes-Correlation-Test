@@ -18,7 +18,7 @@ sourceCpp("BayesDMC.cpp")
 
 ## C++ implementation of the Bayes Correlation Test
 
-Supply the (i) counts and (ii) target from the same group. The function can only run one group at a time so be sure to subset your data by group.  This will be updated later to handle multiple groups.  
+Supply the (i) counts and (ii) target variable from the same group. The function can only run one group at a time so be sure to subset your data by group.  This will be updated later to handle multiple groups.  
 
 (i) Counts: a matrix of count data.  The rows must be samples; columns are taxa or other feature.
 
