@@ -20,12 +20,12 @@ sourceCpp("BayesDMC.cpp")
 
 Supply the (i) counts and (ii) target variable from the same group. The function can only run one group at a time so be sure to subset your data by group.  This will be updated later to handle multiple groups.  
 
-(i) Counts: a matrix of count data.  The rows must be samples; columns are taxa or other feature.
+(i) Counts (Y): a matrix of count data.  The rows must be samples; columns are taxa or other feature.
 
-(ii) Target: a vector of real-valued data that will be tested for correlation with each taxa.
+(ii) Target (X): a vector of real-valued data that will be tested for correlation with each taxa.
 
 ```
-res <- BayesDMC_cpp(counts, target, store = T)
+res <- BayesDMC_cpp(Y, X, store = T)
 ```
 
 ## Output of BayesDMC
